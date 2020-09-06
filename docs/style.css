@@ -1,0 +1,49 @@
+html, body {
+    font-family: Arial,sans-serif;
+    font-size: 20px;
+    height: 100%;
+    width: 100%;
+    letter-spacing: 0.5px;
+    line-height: 1.4;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+#main{
+    height: 360px;
+    width: 640px;
+    background-color: #F0E8E8; /*mordor-20*/
+ 
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+#canvas-container{
+    flex: 0 1 80%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    background-color: #77D6E1;
+    display: block;
+}
+
+/* Don't highlight anything on click-and-drag. */
+:not(input):not(textarea) {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
