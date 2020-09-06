@@ -1,2 +1,6 @@
-# CanvasGameReference
-Probably create a nice base with a bunch of different common things I use included so when i want to create new games i can use this.
+# Challonge Recent Results
+This will go through a provided tournaments matches and display a scrolling reel of recent results.
+
+# what results are displayed:
+...to come.
+
