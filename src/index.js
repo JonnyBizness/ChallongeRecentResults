@@ -6,7 +6,8 @@ let mainDiv = $("main");
 
 //https://challonge.com/ENZSFVW415
 
-//7FfjtWlBLGuWt0833EBSwEGC0mABrDG4B52rIcZ4
+//zU8uSiEtYLjlqFXPQCRzto3RiEp1KegdJ8TCyvLj
+//i shouldn't need to even provide this for public info? check that.
 
 
 let getCompletedMatches = (tournament) => new Promise(function(resolve, reject) {
@@ -15,7 +16,7 @@ let getCompletedMatches = (tournament) => new Promise(function(resolve, reject) 
         type: "GET",
         dataType: 'json',
         url: `https://api.challonge.com/v1/tournaments/${tournament}.json`,///${tournament}.json`,
-        data: {'api_key': '7FfjtWlBLGuWt0833EBSwEGC0mABrDG4B52rIcZ4',
+        data: {'api_key': 'zU8uSiEtYLjlqFXPQCRzto3RiEp1KegdJ8TCyvLj',
             'include_matches': 1,
             'include_participants': 1},
         cache: false,
