@@ -1,8 +1,8 @@
 html, body {
     font-family: Arial,sans-serif;
     font-size: 20px;
-    height: 100%;
-    width: 100%;
+    height: 200px;
+    width: 700px;
     letter-spacing: 0.5px;
     line-height: 1.4;
     overflow: hidden;
@@ -14,12 +14,12 @@ html, body {
     align-items: center;
     flex-direction: column;
 
+    color: #FFF;
 }
 #main{
-    height: 360px;
-    width: 640px;
-    background-color: #F0E8E8; /*mordor-20*/
- 
+    height: 200px;
+    width: 700px;
+    background-color: #000;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -46,4 +46,14 @@ canvas {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+}
+
+#round{
+    font-size: 24;
+}
+#match{
+    font-weight: 700;
+}
+.subtext{
+    font-weight: 400;
 }
