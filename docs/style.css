@@ -1,6 +1,6 @@
 html, body {
     font-family: Arial,sans-serif;
-    font-size: 20px;
+    font-size: 40px;
     height: 200px;
     width: 700px;
     letter-spacing: 0.5px;
@@ -19,7 +19,6 @@ html, body {
 #main{
     height: 200px;
     width: 700px;
-    background-color: #000;
     display:flex;
     justify-content: space-around;
     align-items: center;
@@ -49,9 +48,10 @@ canvas {
 }
 
 #round{
-    font-size: 24;
+    font-size: 40px;
 }
 #match{
+    font-size: 34px;
     font-weight: 700;
 }
 .subtext{
