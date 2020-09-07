@@ -131,7 +131,7 @@ const convertIdToName = (id) => {
 
     let matchedParticipant = participants.find(participant => participant.participant.id == id || participant.participant.group_player_ids.includes(id));
     console.log(matchedParticipant);
-    return matchedParticipant.participant.name;
+    return matchedParticipant.participant.display_name;
 }
 
 
